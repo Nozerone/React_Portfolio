@@ -4,6 +4,7 @@ import Resume from './pages/Resume';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/Contact';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 
 function App() {
@@ -27,6 +28,7 @@ function handleChange(){
     <>
     <Navbar setPage={setPage}/>
     { handleChange() }
+    <Footer />
     </>
   )
 }

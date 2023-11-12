@@ -12,7 +12,7 @@ const Navbar = ({setPage}) => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a onClick={() => setPage('About me')} className="nav-link active" aria-current="page" href="#">About me</a>
+          <a onClick={() => setPage('About me')} className="nav-link" href="#">About me</a>
         </li>
         <li className="nav-item">
           <a onClick={() => setPage('Contact')} className="nav-link" href="#">Contact</a>
@@ -21,7 +21,7 @@ const Navbar = ({setPage}) => {
           <a onClick={() => setPage('Portfolio')} className="nav-link" href="#">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a onClick={() => setPage('Resume')} className="nav-link" aria-disabled="true">Resume</a>
+          <a onClick={() => setPage('Resume')} className="nav-link" href="#" >Resume</a>
         </li>
       </ul>
     </div>
