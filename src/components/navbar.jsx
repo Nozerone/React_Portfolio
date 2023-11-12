@@ -1,11 +1,15 @@
 import React from 'react';
+import { BugOff } from 'lucide-react';
 
 const Navbar = ({setPage}) => {
   return (
+    <>
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">
+      <BugOff color="red" size={48}/>
+      Jose Posadas</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
@@ -29,6 +33,7 @@ const Navbar = ({setPage}) => {
 </nav>
 
     </div>
+    </>
   );
 }
 

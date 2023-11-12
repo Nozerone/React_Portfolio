@@ -1,9 +1,14 @@
 import React from 'react';
+import { AtSign,Send } from 'lucide-react';
 
 const Contact = () => {
   return (
     <>
     <div>
+      <div>
+        <AtSign />
+      </div>
+    <h2>Contact</h2>
     <div>
   <div className="mb-3">
     <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
@@ -16,6 +21,11 @@ const Contact = () => {
   <div className="mb-3">
     <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
     <textarea className="form-control" id="exampleFormControlTextarea1" rows={3} defaultValue={""} />
+  </div>
+  <div>
+    <button type="button" action="submit" className='btn btn-secondary'> 
+  <Send /> Submit
+  </button>
   </div>
 </div>
 

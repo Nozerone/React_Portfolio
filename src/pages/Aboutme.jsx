@@ -1,10 +1,13 @@
 import React from 'react';
-import { Asterisk } from 'lucide-react';
+import { BookOpenText } from 'lucide-react';
+
+
 const Aboutme = () => {
   return (
     <>
     <div>
-      <Asterisk />
+      <div><BookOpenText /></div>
+      <h2>About me</h2>
       <div>
         <p>
           <img ></img>
