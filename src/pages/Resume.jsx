@@ -8,7 +8,7 @@ const Resume = () => {
     <div>
        <h2>Resume</h2>
      <div>
-      <a><h5>Download</h5></a>
+      <a href='src/assets/jposadas_cv.pdf' title='Jose_resume' download><button class="btn btn-success">Download</button></a>
      </div>
      <div>
       <h5>Education</h5>
