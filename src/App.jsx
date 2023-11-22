@@ -15,9 +15,7 @@ function handleChange(){
     if(page == 'About me'){
         return<Aboutme />
     } else if(page === 'Resume'){
-    
-            return<Resume />
-    
+        return<Resume />
     } else if(page == 'Portfolio'){
         return<Portfolio />
     } else{

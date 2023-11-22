@@ -18,16 +18,17 @@ const Contact = () => {
    }
  }
 
- const handleSubmit = (event) => {
+ const handleOnBlur = (event) => {
    event.preventDefault();
    checkEmail(email);
    checkMessage(message);
    // Handle form submission here
+   
  }
 
  return (
    <>
-     <form className='needs-validation' onSubmit={handleSubmit}>
+     <form className='needs-validation' onSubmit={handleOnBlur}>
        <div>
          <AtSign />
        </div>

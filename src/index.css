@@ -1,0 +1,6 @@
+.card-title-container {
+    display: flex;
+    align-items: left;
+    justify-content: space-between 5px;
+   }
+   
