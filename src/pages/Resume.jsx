@@ -1,10 +1,9 @@
-import { FileText } from 'lucide-react';
 import React from 'react';
 
 const Resume = () => {
   return (
     <>
-    <FileText />
+  
     <div>
        <h2>Resume</h2>
      <div>

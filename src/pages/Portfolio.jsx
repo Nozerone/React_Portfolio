@@ -1,13 +1,12 @@
-import { GalleryThumbnails } from 'lucide-react';
+
 import React from 'react';
 
 const Portfolio = () => {
   return (
     <div>
-      <GalleryThumbnails />
        <h2>Portfolio</h2>
-    <div>
-  <div className="card-group">
+    <div className='container'>
+  <div className="card-group gap-4">
     <div className="card">
       <a href="https://codemantic-e7e316dea174.herokuapp.com/"><img src="src/assets/images/Screenshot 2023-11-11 at 9.57.07 PM.png" className="card-img-top" alt="..." /></a>
       <div className="card-body">
@@ -30,7 +29,7 @@ const Portfolio = () => {
       </div>
     </div>
   </div>
-  <div className="card-group">
+  <div className="card-group ">
     <div className="card">
     <a href="https://nozerone.github.io/Code_Quiz/"><img src="src/assets/images/Screenshot 2023-07-27 at 2.38.17 PM.png" className="card-img-top" alt="..." /></a>
       <div className="card-body">

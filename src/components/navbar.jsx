@@ -5,7 +5,7 @@ const Navbar = ({setPage}) => {
   return (
     <>
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
             <div className='d-flex flex-row gap-3'>
             <BugOff color="red" size={48} className='mt-3 '/>

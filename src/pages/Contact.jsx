@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AtSign, Send } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 const Contact = () => {
  const [email, setEmail] = useState("");
@@ -28,9 +28,8 @@ const Contact = () => {
 
  return (
    <>
-     <form className='needs-validation' onSubmit={handleOnBlur}>
+     <form className='needs-validation form-control-lg' onSubmit={handleOnBlur}>
        <div>
-         <AtSign />
        </div>
        <h2>Contact</h2>
        <div className="mb-3">
