@@ -6,9 +6,9 @@ const Navbar = ({setPage}) => {
     <>
     <div className=''>
       <nav className="navbar navbar-expand-lg sticky-top" role="navigation">
-        <div className="container-fluid bg-secondary">
+        <div className="container-fluid">
             <div className='d-flex flex-row gap-3'>
-            <BugOff color="red" size={48} className='mt-3 '/>
+            <BugOff color="black" size={48} className='mt-3 '/>
             <h2 className='mt-4'>Jose Posadas</h2>
           
             </div>

@@ -1,9 +1,7 @@
-.card-title-container {
-    display: flex;
-    align-items: left;
-    justify-content: space-between 5px;
-   }
-   
+* {
+    background: #ffb3c6;
+}
+
    header 
    {
    display: flex;
@@ -15,8 +13,4 @@
    footer {
     position: relative;
     bottom: 0;
-      
-   }
-   .navbar-background {
-    background-color: #ff8fab;
    }
