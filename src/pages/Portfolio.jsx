@@ -4,7 +4,6 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <div>
-       <h2>Portfolio</h2>
     <div className='container'>
   <div className="card-group gap-4">
     <div className="card">
@@ -25,7 +24,7 @@ const Portfolio = () => {
     <a href="https://nozerone.github.io/semantic-html/"><img src="src/assets/images/Screenshot 2023-11-11 at 9.49.03 PM.png" className="card-img-top" alt="..." /></a>
       <div className="card-body">
         <h5 className="card-title">Semantic Refractmentation</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p className="card-text">This is a class challenge where I refractored provoded code to improve accesibility. </p>
       </div>
     </div>
   </div>

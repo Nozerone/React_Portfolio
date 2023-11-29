@@ -7,11 +7,10 @@ const Header = ({page, setPage}) => {
  return (
    <>
      <header>
-       {page === 'About me' && <h2><BookOpenText/>About me</h2>}
-       {page === 'Contact' && <h2><Contact2Icon/>Contact</h2>}
-       {page === 'Portfolio' && <h2><LucideBriefcase/>Portfolio</h2>}
-       {page === 'Resume' && <h2><FileTextIcon/>Resume</h2>}
-       <hr></hr>
+       {page === 'About me' && <h2><BookOpenText/> About me</h2>}
+       {page === 'Contact' && <h2><Contact2Icon/> Contact</h2>}
+       {page === 'Portfolio' && <h2><LucideBriefcase/> Portfolio</h2>}
+       {page === 'Resume' && <h2><FileTextIcon/> Resume</h2>}
      </header>
    </>
  );

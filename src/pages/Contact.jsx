@@ -31,14 +31,13 @@ const Contact = () => {
      <form className='needs-validation form-control-lg' onSubmit={handleOnBlur}>
        <div>
        </div>
-       <h2>Contact</h2>
        <div className="mb-3">
          <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
          <input type="text" className="form-control" placeholder="your name" />
        </div>
        <div className="mb-3">
          <label htmlFor="validationServer01" className="form-label">Email address</label>
-         <input type="email" className="form-control is-valid" id="validationServer01" placeholder="name@example.com" onBlur={(e) => setEmail(e.target.value)} />
+         <input type="email" className="form-control" id="validationServer01" placeholder="name@example.com" onBlur={(e) => setEmail(e.target.value)} />
          <div className="invalid-feedback">
            You must enter a valid email address!
          </div>

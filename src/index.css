@@ -4,3 +4,19 @@
     justify-content: space-between 5px;
    }
    
+   header 
+   {
+   display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+   }
+
+   footer {
+    position: relative;
+    bottom: 0;
+      
+   }
+   .navbar-background {
+    background-color: #ff8fab;
+   }

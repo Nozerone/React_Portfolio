@@ -4,25 +4,38 @@ const Resume = () => {
   return (
     <>
   
-    <div>
-       <h2>Resume</h2>
-     <div>
+    <div className='container row mb-3'>
+     <div className='mb-3 col'>
       <a href='src/assets/jposadas_cv.pdf' title='Jose_resume' download><button class="btn btn-success">Download</button></a>
      </div>
      <div>
-      <h5>Education</h5>
+      <h5>Front End </h5>
       <ul>
         <li>
-        UC Davis Coding Bootcamp 2023
+        html 
         </li>
         <li>
-          Academy of Art College 2008
+          css
+        </li>
+        <li>
+          javascript
+        </li>
+        <li>
+          bootstrap
+        </li>
+        <li>
+        react
         </li>
       </ul>
      </div>
      <div>
-      <h5>Experience</h5>
-      <p>Coloso Coffee</p>
+      <h5>Backend</h5>
+      <ul>
+        <li>MySQL</li>
+        <li>Nodejs</li>
+        <li>Mongo DB</li>
+        <li>Express</li>
+      </ul>
      </div>
     </div>
     
